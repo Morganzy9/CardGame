@@ -62,18 +62,50 @@
 		163E5E6E29B8A47700A45A43 /* cardGame */ = {
 			isa = PBXGroup;
 			children = (
-				163E5E8629B8A4A900A45A43 /* AppDelegate.swift */,
-				163E5E8829B8A4A900A45A43 /* Assets.xcassets */,
-				163E5E8B29B8A4AA00A45A43 /* CardSelectionVC.swift */,
-				163E5E8429B8A4A800A45A43 /* Deck.swift */,
-				163E5E8729B8A4A900A45A43 /* joke.swift */,
-				163E5E8529B8A4A900A45A43 /* JokeViewController.swift */,
-				163E5E8929B8A4AA00A45A43 /* LaunchScreen.storyboard */,
-				163E5E8A29B8A4AA00A45A43 /* Main.storyboard */,
-				163E5E8329B8A4A800A45A43 /* SceneDelegate.swift */,
+				163E5E9729B8A54B00A45A43 /* Delegate */,
+				163E5E9629B8A52800A45A43 /* Structs */,
+				163E5E9829B8A56200A45A43 /* VC */,
+				163E5E9929B8A58100A45A43 /* Assets */,
 				163E5E7D29B8A47800A45A43 /* Info.plist */,
 			);
 			path = cardGame;
+			sourceTree = "<group>";
+		};
+		163E5E9629B8A52800A45A43 /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				163E5E8729B8A4A900A45A43 /* joke.swift */,
+				163E5E8429B8A4A800A45A43 /* Deck.swift */,
+			);
+			path = Structs;
+			sourceTree = "<group>";
+		};
+		163E5E9729B8A54B00A45A43 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				163E5E8629B8A4A900A45A43 /* AppDelegate.swift */,
+				163E5E8329B8A4A800A45A43 /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		163E5E9829B8A56200A45A43 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				163E5E8B29B8A4AA00A45A43 /* CardSelectionVC.swift */,
+				163E5E8529B8A4A900A45A43 /* JokeViewController.swift */,
+				163E5E8A29B8A4AA00A45A43 /* Main.storyboard */,
+				163E5E8929B8A4AA00A45A43 /* LaunchScreen.storyboard */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		163E5E9929B8A58100A45A43 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				163E5E8829B8A4A900A45A43 /* Assets.xcassets */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
